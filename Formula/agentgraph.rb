@@ -1,27 +1,27 @@
 class Agentgraph < Formula
   desc "Attack-path analysis for autonomous AI agents"
   homepage "https://github.com/blackrabbit1x0/agentgraph"
-  version "0.5.0"
+  version "0.5.1"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/blackrabbit1x0/agentgraph/releases/download/v0.5.0/agentgraph-darwin-amd64.tar.gz"
-      sha256 "be97f637fe33b1fbc83cfe3f7411f38d033d8346b42f8d83c8cd44ee3ac978ec"
+      url "https://github.com/blackrabbit1x0/agentgraph/releases/download/v0.5.1/agentgraph-darwin-amd64.tar.gz"
+      sha256 "43f411b36a593a7e07d0dbd8af7dbe9ae681d90260d786cc37841fc357f89543"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/blackrabbit1x0/agentgraph/releases/download/v0.5.0/agentgraph-darwin-arm64.tar.gz"
-      sha256 "438ff99096b078e0c22ddb78fcd08823ff0adf57b3b2b8eb3812f5947c3d8cdb"
+      url "https://github.com/blackrabbit1x0/agentgraph/releases/download/v0.5.1/agentgraph-darwin-arm64.tar.gz"
+      sha256 "fde8b1f7da4fea7e75507797c40fd68e16ea4601e68632314aafe101f03a09cb"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/blackrabbit1x0/agentgraph/releases/download/v0.5.0/agentgraph-linux-amd64.tar.gz"
-      sha256 "809512b45d782f8b9ca09086fd657229c4f4b56628f1e5264ef4ed1e11ff5fbc"
+      url "https://github.com/blackrabbit1x0/agentgraph/releases/download/v0.5.1/agentgraph-linux-amd64.tar.gz"
+      sha256 "3016cc20608a066e460c9117a7dfa163298d394bdd27dfd0e462961e79a86891"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/blackrabbit1x0/agentgraph/releases/download/v0.5.0/agentgraph-linux-arm64.tar.gz"
-      sha256 "705c02df6a4552b47cc4e77e490e3c4d67b5f51d935191932fa8e8b293d435d1"
+      url "https://github.com/blackrabbit1x0/agentgraph/releases/download/v0.5.1/agentgraph-linux-arm64.tar.gz"
+      sha256 "31ee358863830e456d24b43384998a436bb039e4bdb462921ae2d20835006b9f"
     end
   end
 
